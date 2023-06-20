@@ -4,14 +4,14 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open('fika-cache').then((cache) => {
       return cache.addAll([
-        '/',
-        'index.html',
-        'imagen1.jpeg',
-        'imagen2.jpeg',
-        'imagen3.jpeg',
-        'imagen4.jpeg',
-        'imagen5.jpeg',
-        'imagen6.jpeg'
+        '/fika/',
+        '/fika/index.html',
+        '/fika/imagen1.jpeg',
+        '/fika/imagen2.jpeg',
+        '/fika/imagen3.jpeg',
+        '/fika/imagen4.jpeg',
+        '/fika/imagen5.jpeg',
+        '/fika/imagen6.jpeg'
       ]);
     })
   );
