@@ -7,14 +7,9 @@
   "theme_color": "#333333",
   "icons": [
     {
-      "src": "icon.png",
+      "src": "/fika/favicon.ico",
       "sizes": "192x192",
       "type": "image/png"
     },
-    {
-      "src": "icon.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
   ]
 }
